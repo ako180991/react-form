@@ -1,0 +1,47 @@
+.FormMovie {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  background: #bdc3c7;
+  /*fallbackforoldbrowsers*/background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  /*Chrome10-25,Safari5.1-6*/background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/border-radius: ;
+  -webkit-border-radius:10px;
+ 
+}
+
+.FormMovie h1 {
+  text-align: center;
+}
+
+.FormMovie .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.FormMovie .form-data label {
+  display: flex;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+  align-items: center
+}
+
+.FormMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
+
+textarea {
+  margin: 5px 0;
+  width: 600px;
+
+}
+
+.field {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
