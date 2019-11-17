@@ -47,7 +47,7 @@ class FormMovie extends Component {
                 }
             }).catch(e => {
                 console.error(e);
-                alert(`Erreur lors de l'ajout d'un employé`);
+                alert(`Erreur lors de l'ajout du film`);
             });
 
     }
